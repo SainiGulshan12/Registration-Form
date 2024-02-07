@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Survey Form using HTML and CSS</title>
+    <link rel="stylesheet" href="789.css">
+    </head>
+<body>
+    <h1> Registration Form </h1>
+    
+    <form id="form" >
+        <div class ="c">
+            <label for="First name">First Name
+            <input type="text"id="First name" placeholder="Enter your name">
+        </label>
+        </div>
+        <div class="c">
+            <label for="Last name">Last name
+            <input type="text" id="Last name">
+        </label>
+        </div>
+        <div class="c">
+            <label for="Father's name">Father's name
+            <input type="text" id="Father's name" >
+        </label>
+        </div>
+        <div class="c">
+            <label for="Mother's name">Mother's name
+            <input type="text" id="Mother's name" >
+        </label>
+        </div>
+        <div class ="c">
+            <label for="email">Email
+            <input type="email"id="email" placeholder="eg:email@gmail.com">
+        </label>
+        </div>
+        <div class ="c">
+            <label for="Age">Age
+            <input type="text" id="Age" placeholder="Enter your age">
+        </label>
+        </div>
+        <div class="c">
+            <label for="role">which option best for describe you?
+            </label>
+            <select name="role">
+                <option value="student">student</option>
+                <option value="professional">professional</option>
+                <option value="intern">intern</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+        <div class="c">
+            <label for="moblle number">mobile number
+            <input type="number" id="number"placeholder="XXX XXX XXXX">
+            <small>(10 digit number)</small>
+            </label> 
+        </div>
+        <div class="c">Gender<b>:</b>
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" name="recommed">male
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" name="recommed">female
+            </label>
+        </div>
+        <div class="c">
+            <label for="DOB">Date of birth(DOB)
+                <input type="date" id="date">
+            </label>
+        </div>
+        <div class="c">
+            <label for="Address">Address<b>:</b>
+                <textarea name="Address" id="Address" cols="30" rows="3"></textarea> 
+            </label>
+        </div>
+        <div class="c">
+            <label for="city">city
+                <input type="text" id="city"placeholder="city">
+            </label>
+            <div class="c">
+                <label for="Pin code">Pin code
+                    <input type="number" id="number"placeholder="Pin Code">
+                </label>
+            </div>
+            <div class="c">
+                <label for="State">State
+                    <input type="text" id="text"placeholder="State">
+                </label>
+            </div>
+            <div class="c">
+                <label for="Country">Country
+                    <input type="text" id="text" placeholder="Country">
+                </label>
+            </div>
+            <div class="c">
+                <label>Hobbies<b>:</b></label>
+                <label for="hob-1" >
+                    <input type="checkbox" name="hob">Singing</input></label>
+                <label for="hob-2">
+                    <input type="checkbox" name="hob">Dancing</input></label>
+                <label for="hob-3">
+                    <input type="checkbox" name="hob">Drawing</input></label>
+                <label for="hob-4">
+                    <input type="checkbox" name="hob">Reading</input></label>
+            </div>
+            <div style="margin: 1%;">
+                <label for="Other">Others
+                    <input type="text" id="text">
+                </label>
+            </div>
+        <div class="c">
+            <label >language and frameworks known
+                <small>(check all that apply)</small>
+            </label>
+            <div><label for="inp-1">
+                <input type="checkbox" name="inp">C</input></label></div>
+            <div><label for="inp-2">
+                <input type="checkbox" name="inp">C++</input></label></div>
+            <div><label for="inp-3">
+                <input type="checkbox" name="inp">Python</label></div>
+            <div><label for="inp-4">
+                <input type="checkbox" name="inp">Html</label></div>
+            <div><label for="inp-5">
+                <input type="checkbox" name="inp">JavaScript</label></div>
+            <div><label for="inp-6">
+                <input type="checkbox" name="inp">CSS</label></div>
+        </div>
+        <div>Qualification<b>:</b>
+        <table>
+            <Thead>
+                <tr>
+                    <td >s.n.</td>
+                    <td >Examination</td>
+                    <td >Board</td>
+                    <td >Percentage</td>
+                    <td >Year Of Passing</td>
+                </tr>
+            </Thead>
+            <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Class X</td>
+                <td><input type="text" name="Class X_Board"></td>
+                <td><input type="text" name="Class X_Percentage"></td>
+                <td><input type="text" name="Class X_Yaer Of Passing"></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Class XII</td>
+                <td><input type="text" name="Class XII_Board"></td>
+                <td><input type="text" name="Class XII_Percentage"></td>
+                <td><input type="text" name="Class XII_Year Of Passing"></td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Graduation</td>
+                <td><input type="text" name="Graduation_Board"></td>
+                <td><input type="text" name="Graduation_percentage"></td>
+                <td><input type="text" name="Graduation_Year Of Passing"></td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Post Graduation</td>
+                <td><input type="text" name="Post Graduation_Board"></td>
+                <td><input type="text" name="Post Graduation_Persentage"></td>
+                <td><input type="text" name="Post Graduation_Year Of Passing"></td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+            <div class="c">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+            <p style="text-align:center;">
+            <textarea name="comment" id="comment"cols="30" rows="5" placeholder="Enter your comment here"></textarea>
+        </div></p>
+       <button class="A">Registor</button>
+       <button class="A">Reset</button>
+       
+    </form> 
+</body> 
+</html>
